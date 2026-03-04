@@ -1,0 +1,33 @@
+{
+  "name": "dayz-bot",
+  "version": "3.0.0",
+  "description": "Bot Discord multi-servidor profissional para gerenciar eventos DayZ via FTP + PostgreSQL",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js",
+    "register-commands": "node scripts/register-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "dayz",
+    "events",
+    "ftp",
+    "postgres",
+    "multi-server"
+  ],
+  "author": "Fabio Venditi",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.0",
+    "basic-ftp": "^11.5.0",
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.2",
+    "luxon": "^3.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
